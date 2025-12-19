@@ -2,6 +2,8 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
 
+import karamCupBanner from '../assets/karam-cup-banner.png';
+
 const MainLayout: React.FC = () => {
   const location = useLocation();
 
@@ -20,7 +22,7 @@ const MainLayout: React.FC = () => {
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-purple-600 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
             <img
-              src={`${import.meta.env.BASE_URL}karam-cup-banner.png`}
+              src={karamCupBanner}
               alt="Karam Cup Afiş"
               className="relative rounded-lg w-full h-auto object-contain max-h-[400px] shadow-2xl"
             />

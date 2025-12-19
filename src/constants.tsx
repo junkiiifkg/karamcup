@@ -1,5 +1,6 @@
-
+```typescript
 import { Team, Match } from './types';
+import teamLogo from './assets/image.png';
 
 export const TEAMS: Team[] = [
   {
@@ -37,7 +38,7 @@ export const TEAMS: Team[] = [
   {
     id: 't7',
     name: 'Klavyenin Sesini Duyanlar',
-    logo: `${import.meta.env.BASE_URL}image.png`,
+    logo: teamLogo,
     coach: { name: 'Osman Bilal Yedek', nickname: 'RafaSilva1903' },
     players: [
       { id: 'p7-1', name: 'Furkan Kayra Gürsoy', nickname: 'Junkvara', opggUrl: 'https://op.gg/tr/lol/summoners/tr/Junkvara-TR2', favoriteChampions: ['Kaisa', 'Aphelios', 'Jinx'] },
