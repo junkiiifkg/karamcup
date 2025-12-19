@@ -1,4 +1,4 @@
-```typescript
+
 import { Team, Match } from './types';
 import teamLogo from './assets/image.png';
 
