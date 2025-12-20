@@ -58,6 +58,18 @@ const MainLayout: React.FC = () => {
             >
               FİKSTÜR
             </Link>
+            <Link
+              to="/about"
+              className={`px-6 py-2 rounded-lg font-display font-bold text-sm transition-all duration-300 border border-transparent ${isActive('/about')}`}
+            >
+              HAKKIMIZDA
+            </Link>
+            <Link
+              to="/contact"
+              className={`px-6 py-2 rounded-lg font-display font-bold text-sm transition-all duration-300 border border-transparent ${isActive('/contact')}`}
+            >
+              BİZE ULAŞIN
+            </Link>
           </nav>
         </div>
       </header>

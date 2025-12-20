@@ -8,6 +8,8 @@ import HomePage from './src/pages/HomePage';
 import StandingsPage from './src/pages/StandingsPage';
 import FixturePage from './src/pages/FixturePage';
 import TeamDetailPage from './src/pages/TeamDetailPage';
+import AboutPage from './src/pages/AboutPage';
+import ContactPage from './src/pages/ContactPage';
 
 const App: React.FC = () => {
   // OTOMATİK HESAPLAMA MANTIĞI
@@ -54,6 +56,8 @@ const App: React.FC = () => {
           <Route path="standings" element={<StandingsPage teams={enrichedTeams} />} />
           <Route path="fixture" element={<FixturePage matches={MATCHES} teams={enrichedTeams} />} />
           <Route path="team/:id" element={<TeamDetailPage teams={enrichedTeams} />} />
+          <Route path="about" element={<AboutPage />} />
+          <Route path="contact" element={<ContactPage />} />
           {/* Catch all - redirect to home */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
