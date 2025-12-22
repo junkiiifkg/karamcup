@@ -92,6 +92,9 @@ const MainLayout: React.FC = () => {
           <a href="https://youtube.com/@karamcup" target="_blank" rel="noopener noreferrer" className="text-3xl text-slate-500 hover:text-[#FF0000] transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-[#FF0000]/20 rounded-full" title="YouTube">
             <i className="fa-brands fa-youtube"></i>
           </a>
+          <a href="https://x.com/karamcup" target="_blank" rel="noopener noreferrer" className="text-3xl text-slate-500 hover:text-white transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-white/20 rounded-full" title="X (Twitter)">
+            <i className="fa-brands fa-x-twitter"></i>
+          </a>
         </div>
         <p className="text-slate-500 font-display font-bold uppercase tracking-[0.3em] text-xs text-center">
           Karam Cup Tournament <span className="text-cyan-500">&copy; 2026</span>
