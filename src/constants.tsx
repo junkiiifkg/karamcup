@@ -1,38 +1,68 @@
 
 import { Team, Match } from './types';
 import teamLogo from './assets/image.png';
+import solarFlareLogo from './assets/Solar_Flare.png';
+import tersLalelerLogo from './assets/Ters_Laleler.png';
+import bsboaLogo from './assets/BSBOA.png';
+import stormSoldiersLogo from './assets/Storm_Soldiers.png';
 
 export const TEAMS: Team[] = [
   {
     id: 't1',
-    name: 'Thunder Wolves',
-    logo: 'https://picsum.photos/seed/wolf/200',
+    name: 'Solar Flare',
+    logo: solarFlareLogo,
     coach: { name: 'Arda Gündüz', nickname: 'Sensei' },
     players: [
-      { id: 'p1', name: 'Ahmet Yılmaz', nickname: 'Storm', opggUrl: 'https://www.op.gg/summoners/tr/Storm-TR1', favoriteChampions: ['Lee Sin', 'Jarvan IV', 'Kha\'Zix'] },
-      { id: 'p2', name: 'Can Demir', nickname: 'Voltage', opggUrl: '#', favoriteChampions: ['Syndra', 'Orianna', 'Azir'] },
-      { id: 'p3', name: 'Efe Tan', nickname: 'Bolt', opggUrl: '#', favoriteChampions: ['Ezreal', 'Kai\'Sa', 'Lucian'] },
-      { id: 'p4', name: 'Mert Ak', nickname: 'Shock', opggUrl: '#', favoriteChampions: ['Thresh', 'Nautilus', 'Leona'] },
-      { id: 'p5', name: 'Sarp Kaya', nickname: 'Flash', opggUrl: '#', favoriteChampions: ['Aatrox', 'Jax', 'Fiora'] }
+      { id: 'p1-1', name: 'Sercan Er', nickname: 'ztx', opggUrl: 'https://op.gg/tr/lol/summoners/euw/DA WIZARD-TRVS', favoriteChampions: ['Camille', 'Fiora', 'Poppy'] },
+      { id: 'p1-2', name: 'Sarp Azmak', nickname: 'levi ', opggUrl: 'https://op.gg/tr/lol/summoners/euw/2416-jgg', favoriteChampions: ['Reksai', 'Viego', 'Qiyana'] },
+      { id: 'p1-3', name: 'İlke Barış Önder', nickname: 'Dealio', opggUrl: 'https://op.gg/tr/lol/summoners/tr/Soltran-TR1', favoriteChampions: ['Zoe', 'Ryze', 'Akshan'] },
+      { id: 'p1-4', name: 'Kaan Yılmaz', nickname: 'kyaan', opggUrl: 'https://op.gg/tr/lol/summoners/tr/PSYCH0K1LL3R-333', favoriteChampions: ['Xayah', 'Varus', 'Lucian'] },
+      { id: 'p1-5', name: 'Kaan Palak', nickname: 'Génie', opggUrl: 'https://op.gg/tr/lol/summoners/euw/BLG ON-génie', favoriteChampions: ['Rakan', 'Rell', 'Nautilus'] }
     ],
     stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 }
   },
   {
     id: 't2',
-    name: 'Shadow Reapers',
-    logo: 'https://picsum.photos/seed/shadow/200',
+    name: 'Ters Laleler',
+    logo: tersLalelerLogo,
     coach: { name: 'Mehmet Ali', nickname: 'Ghost' },
     players: [
-      { id: 'p6', name: 'Bora Sert', nickname: 'Grim', opggUrl: '#', favoriteChampions: ['Zed', 'Yasuo', 'Yone'] },
-      { id: 'p7', name: 'Deniz Gök', nickname: 'Soul', opggUrl: '#', favoriteChampions: ['Viego', 'Kindred', 'Nidalee'] },
-      { id: 'p8', name: 'Emre Yol', nickname: 'Wraith', opggUrl: '#', favoriteChampions: ['LeBlanc', 'Akali', 'Katarina'] },
-      { id: 'p9', name: 'Fatih Aras', nickname: 'Hollow', opggUrl: '#', favoriteChampions: ['Vayne', 'Jinx', 'Draven'] },
-      { id: 'p10', name: 'Görkem Uzun', nickname: 'Death', opggUrl: '#', favoriteChampions: ['Pyke', 'Blitzcrank', 'Bard'] }
+      { id: 'p2-1', name: 'Baran SEVEN', nickname: 'Baranseven', opggUrl: 'https://op.gg/tr/lol/summoners/tr/Baranseven-6221', favoriteChampions: ['Garen', 'Malphite', 'Mordekaiser'] },
+      { id: 'p2-2', name: 'Kemal Özgür DANACIOĞLU', nickname: 'OTOBUSKALKAR', opggUrl: 'https://op.gg/tr/lol/summoners/tr/OTOBUSKALKAR-BUS', favoriteChampions: ['Viego', 'Vi', 'Ekko'] },
+      { id: 'p2-3', name: 'Balkan MESUT', nickname: 'RealKjng', opggUrl: 'https://op.gg/tr/lol/summoners/tr/RealKjng-0000', favoriteChampions: ['Velkoz', 'Ahri', 'Mel'] },
+      { id: 'p2-4', name: 'Ahmet Furkan TURAN', nickname: '2run', opggUrl: 'https://op.gg/tr/lol/summoners/tr/2run-IceWx', favoriteChampions: ['Lucian', 'Kaisa', 'Tristana'] },
+      { id: 'p2-5', name: 'Tuna Çağın BAYIR', nickname: 'Nesquiq', opggUrl: 'https://op.gg/tr/lol/summoners/tr/Nesquiq-6435', favoriteChampions: ['Alistar', 'Thresh', 'Rell'] }
     ],
     stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 }
   },
-  { id: 't3', name: 'Golden Phoenix', logo: 'https://picsum.photos/seed/phoenix/200', coach: { name: 'Umut Can', nickname: 'Rise' }, players: [], stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 } },
-  { id: 't4', name: 'Ocean Guardians', logo: 'https://picsum.photos/seed/ocean/200', coach: { name: 'Selim Vardar', nickname: 'Deep' }, players: [], stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 } },
+  {
+    id: 't3',
+    name: 'Bir Süredir Beraber Oynayan Adamlar',
+    logo: bsboaLogo,
+    coach: { name: 'Mehmet Ali', nickname: 'Ghost' },
+    players: [
+      { id: 'p3-1', name: 'Umut Efe Nalbant', nickname: 'Auen', opggUrl: 'https://op.gg/lol/summoners/tr/LOLÜN%20SANSARI-BNY', favoriteChampions: ['Aatrox', 'Mundo', 'Gwen'] },
+      { id: 'p3-2', name: 'Umut Tuncay Özkan', nickname: 'umutdelrey', opggUrl: 'https://op.gg/lol/summoners/tr/umutdelrey-333', favoriteChampions: ['Zyra', 'Viego', 'Qiyana'] },
+      { id: 'p3-3', name: 'Sefa ÖzTÜRK', nickname: 'UFO', opggUrl: 'https://op.gg/tr/lol/summoners/tr/UFO-187', favoriteChampions: ['Ryze', 'Syndra', 'Hwei'] },
+      { id: 'p3-4', name: 'Arda Çağlar', nickname: 'bierist', opggUrl: 'https://op.gg/tr/lol/summoners/tr/bierist-19230', favoriteChampions: ['Aphelios', 'Kaisa', 'Sivir'] },
+      { id: 'p3-5', name: 'Turgaycan Haman', nickname: 'MadcaP', opggUrl: 'https://op.gg/tr/lol/summoners/tr/MadcaP-T11', favoriteChampions: ['Thresh', 'Braum', 'Pyke'] }
+    ],
+    stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 }
+  },
+  {
+    id: 't4',
+    name: 'Storm Soldiers',
+    logo: stormSoldiersLogo,
+    coach: { name: 'Arda Gündüz', nickname: 'Sensei' },
+    players: [
+      { id: 'p4-1', name: 'Eyyup Aydınoğlu', nickname: 'SS Invincible', opggUrl: 'https://op.gg/lol/summoners/tr/InvincibleX-STRNG', favoriteChampions: ['Garen', 'Pantheon', 'Shen'] },
+      { id: 'p4-2', name: 'Ege Ünalan', nickname: 'SS Memati ', opggUrl: 'https://op.gg/lol/summoners/tr/THE%20MEMAT%C4%B0-995', favoriteChampions: ['Lillia', 'Kayn', 'Viego'] },
+      { id: 'p4-3', name: 'Kemal Gürbüz', nickname: 'SS Alucard', opggUrl: 'https://op.gg/lol/summoners/tr/d%C3%BCmb%C3%BCk19-NO1', favoriteChampions: ['Swain', 'Yone', 'Mel'] },
+      { id: 'p4-4', name: 'Muhammed Balka', nickname: 'SS Mamixyo', opggUrl: 'https://op.gg/lol/summoners/tr/W%20mamixyo-suo', favoriteChampions: ['Kaisa', 'Yasuo', 'Varus'] },
+      { id: 'p4-5', name: 'Efe Karaoğlu', nickname: 'SS Froxy', opggUrl: 'https://op.gg/lol/summoners/tr/Froxy-Fro02', favoriteChampions: ['Rell', 'Nautilus', 'Swain'] }
+    ],
+    stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 }
+  },
   { id: 't5', name: 'Mountain Titans', logo: 'https://picsum.photos/seed/mountain/200', coach: { name: 'Ozan Tekin', nickname: 'Rock' }, players: [], stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 } },
   { id: 't6', name: 'Desert Scorpions', logo: 'https://picsum.photos/seed/desert/200', coach: { name: 'Kemal Ak', nickname: 'Sand' }, players: [], stats: { played: 0, wins: 0, losses: 0, mapWins: 0, mapLosses: 0 } },
   {
