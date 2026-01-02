@@ -11,7 +11,7 @@ export const TEAMS: Team[] = [
     id: 't1',
     name: 'Solar Flare',
     logo: solarFlareLogo,
-    coach: { name: 'Arda Gündüz', nickname: 'Sensei' },
+    coach: { name: 'Efe GündSeytin', nickname: 'Twenty7' },
     players: [
       { id: 'p1-1', name: 'Sercan Er', nickname: 'ztx', opggUrl: 'https://op.gg/tr/lol/summoners/euw/DA WIZARD-TRVS', favoriteChampions: ['Camille', 'Fiora', 'Poppy'] },
       { id: 'p1-2', name: 'Sarp Azmak', nickname: 'levi ', opggUrl: 'https://op.gg/tr/lol/summoners/euw/2416-jgg', favoriteChampions: ['Reksai', 'Viego', 'Qiyana'] },
@@ -25,7 +25,7 @@ export const TEAMS: Team[] = [
     id: 't2',
     name: 'Ters Laleler',
     logo: tersLalelerLogo,
-    coach: { name: 'Mehmet Ali', nickname: 'Ghost' },
+    coach: { name: 'Efe Külahsızoğlu', nickname: 'Trefkmeister' },
     players: [
       { id: 'p2-1', name: 'Baran SEVEN', nickname: 'Baranseven', opggUrl: 'https://op.gg/tr/lol/summoners/tr/Baranseven-6221', favoriteChampions: ['Garen', 'Malphite', 'Mordekaiser'] },
       { id: 'p2-2', name: 'Kemal Özgür DANACIOĞLU', nickname: 'OTOBUSKALKAR', opggUrl: 'https://op.gg/tr/lol/summoners/tr/OTOBUSKALKAR-BUS', favoriteChampions: ['Viego', 'Vi', 'Ekko'] },
@@ -39,7 +39,7 @@ export const TEAMS: Team[] = [
     id: 't3',
     name: 'Bir Süredir Beraber Oynayan Adamlar',
     logo: bsboaLogo,
-    coach: { name: 'Mehmet Ali', nickname: 'Ghost' },
+    coach: { name: 'Yiğit Efe Ateş', nickname: 'Binefsi' },
     players: [
       { id: 'p3-1', name: 'Umut Efe Nalbant', nickname: 'Auen', opggUrl: 'https://op.gg/lol/summoners/tr/LOLÜN%20SANSARI-BNY', favoriteChampions: ['Aatrox', 'Mundo', 'Gwen'] },
       { id: 'p3-2', name: 'Umut Tuncay Özkan', nickname: 'umutdelrey', opggUrl: 'https://op.gg/lol/summoners/tr/umutdelrey-333', favoriteChampions: ['Zyra', 'Viego', 'Qiyana'] },
@@ -53,7 +53,7 @@ export const TEAMS: Team[] = [
     id: 't4',
     name: 'Storm Soldiers',
     logo: stormSoldiersLogo,
-    coach: { name: 'Arda Gündüz', nickname: 'Sensei' },
+    coach: { name: 'Efe Karaoğlu', nickname: 'Froxy' },
     players: [
       { id: 'p4-1', name: 'Eyyup Aydınoğlu', nickname: 'SS Invincible', opggUrl: 'https://op.gg/lol/summoners/tr/InvincibleX-STRNG', favoriteChampions: ['Garen', 'Pantheon', 'Shen'] },
       { id: 'p4-2', name: 'Ege Ünalan', nickname: 'SS Memati ', opggUrl: 'https://op.gg/lol/summoners/tr/THE%20MEMAT%C4%B0-995', favoriteChampions: ['Lillia', 'Kayn', 'Viego'] },
